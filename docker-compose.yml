@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  api-solid-pg:
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRESQL_USERNAME=kita
+      - POSTGRESQL_PASSWORD=h06s26
+      - POSTGRESQL_DATABASE=apisolid
